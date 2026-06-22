@@ -1,0 +1,18 @@
+# Visao Computacional e UI
+opencv-python
+Pillow
+numpy
+
+# Leitura de Codigos (QR e Data Matrix)
+pyzbar
+pylibdmtx
+
+# Inteligencia Artificial
+ultralytics
+
+# Variaveis de Ambiente / Configuracao
+python-dotenv
+
+# Comunicacao Industrial (CLP)
+pymodbus
+pyModbusTCP

@@ -1,0 +1,22 @@
+=====================================================================================
+                      ARQUITETURA DO SISTEMA POKA-YOKE
+=====================================================================================
+
+  [FONTE EXTERNA]          [MÓDULO 1: camera.py]           [MÓDULO 2: vision.py]
+  +-------------+          +-------------------+           +-------------------+
+  |             |  Wi-Fi   | Thread de Captura |  Fila 1   | Thread de Visão   |
+  |  Câmera IP  | =======> | (Leitura Rápida)  | ========> | (YOLOv8 + Pyzbar) |
+  |             |          | Evita lag de rede | (Frames)  | Processamento CPU |
+  +-------------+          +-------------------+           +-------------------+
+                                                                    ||
+                                                                    || Fila 2
+                                                                    || (Resultados)
+                                                                    \/
+                                                           [MÓDULO 3: main.py]
+                                                           +-------------------+
+                                                           | Interface (IHM)   |
+                                                           | (Tkinter / SCADA) |
+                                                           | Atualiza a tela e |
+                                                           | gera os Logs.     |
+                                                           +-------------------+
+=====================================================================================

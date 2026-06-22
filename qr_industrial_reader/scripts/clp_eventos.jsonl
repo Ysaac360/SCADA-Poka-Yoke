@@ -1,0 +1,63 @@
+{"ts": "2026-05-21T19:19:31.758556", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 502}
+{"ts": "2026-05-21T19:19:33.861764", "tipo": "CONEXAO_FALHA", "tentativa": 1, "erro": "sem detalhe", "rtt_ms": 2074.1}
+{"ts": "2026-05-21T19:19:37.885366", "tipo": "CONEXAO_FALHA", "tentativa": 2, "erro": "sem detalhe", "rtt_ms": 2010.22}
+{"ts": "2026-05-21T19:19:41.925732", "tipo": "CONEXAO_FALHA", "tentativa": 3, "erro": "sem detalhe", "rtt_ms": 2019.18}
+{"ts": "2026-05-21T19:19:41.930998", "tipo": "FALHA_CRITICA", "motivo": "sem_conexao_apos_tentativas"}
+{"ts": "2026-05-21T19:27:20.063205", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T19:27:22.183939", "tipo": "CONEXAO_FALHA", "tentativa": 1, "erro": "sem detalhe", "rtt_ms": 2057.16}
+{"ts": "2026-05-21T19:27:26.212272", "tipo": "CONEXAO_FALHA", "tentativa": 2, "erro": "sem detalhe", "rtt_ms": 2015.86}
+{"ts": "2026-05-21T19:27:28.239807", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 22.25}
+{"ts": "2026-05-21T19:28:21.628236", "tipo": "DIAGNOSTICO_SEM_RESPOSTA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T19:33:59.930378", "tipo": "SESSAO_ENCERRADA", "ip": "172.20.10.238"}
+{"ts": "2026-05-21T19:39:22.605509", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T19:39:22.821617", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 37.79}
+{"ts": "2026-05-21T19:59:11.719443", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T19:59:11.811606", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 48.09}
+{"ts": "2026-05-21T20:07:34.524694", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 32.37}
+{"ts": "2026-05-21T20:08:44.958927", "tipo": "DIAGNOSTICO_SEM_RESPOSTA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T20:20:56.472705", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 502}
+{"ts": "2026-05-21T20:20:58.802652", "tipo": "CONEXAO_FALHA", "tentativa": 1, "erro": "sem detalhe", "rtt_ms": 2067.53}
+{"ts": "2026-05-21T20:21:02.822959", "tipo": "CONEXAO_FALHA", "tentativa": 2, "erro": "sem detalhe", "rtt_ms": 2012.51}
+{"ts": "2026-05-21T20:21:06.887894", "tipo": "CONEXAO_FALHA", "tentativa": 3, "erro": "sem detalhe", "rtt_ms": 2038.2}
+{"ts": "2026-05-21T20:21:06.897418", "tipo": "FALHA_CRITICA", "motivo": "sem_conexao_apos_tentativas"}
+{"ts": "2026-05-21T20:26:24.520174", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T20:26:24.592194", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 37.24}
+{"ts": "2026-05-21T21:04:19.819228", "tipo": "SESSAO_ENCERRADA", "ip": "172.20.10.238"}
+{"ts": "2026-05-21T21:04:33.984983", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T21:04:34.063837", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 45.98}
+{"ts": "2026-05-21T21:04:59.659231", "tipo": "ESCRITA", "addr": 0, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:05:01.777665", "tipo": "VERIFICACAO", "addr": 0, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:05:33.055962", "tipo": "ESCRITA", "addr": 0, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:05:35.194617", "tipo": "VERIFICACAO", "addr": 0, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:05:37.238148", "tipo": "ESCRITA", "addr": 1, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:05:39.372597", "tipo": "VERIFICACAO", "addr": 1, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:05:41.409511", "tipo": "ESCRITA", "addr": 2, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:05:43.539016", "tipo": "VERIFICACAO", "addr": 2, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:05:45.584592", "tipo": "ESCRITA", "addr": 3, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:05:47.707193", "tipo": "VERIFICACAO", "addr": 3, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:08:55.850139", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 8.26}
+{"ts": "2026-05-21T21:09:39.223204", "tipo": "DIAGNOSTICO_SEM_RESPOSTA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T21:23:20.195906", "tipo": "DIAGNOSTICO_SEM_RESPOSTA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T21:27:36.737509", "tipo": "SESSAO_ENCERRADA", "ip": "172.20.10.238"}
+{"ts": "2026-05-21T21:44:33.450861", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T21:44:33.672937", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 127.91}
+{"ts": "2026-05-21T21:45:05.397534", "tipo": "ESCRITA", "addr": 0, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:45:07.519221", "tipo": "VERIFICACAO", "addr": 0, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:45:26.049733", "tipo": "ESCRITA", "addr": 0, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:45:28.176969", "tipo": "VERIFICACAO", "addr": 0, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:45:30.196951", "tipo": "ESCRITA", "addr": 1, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:45:32.331348", "tipo": "VERIFICACAO", "addr": 1, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:45:34.341739", "tipo": "ESCRITA", "addr": 2, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:45:36.475985", "tipo": "VERIFICACAO", "addr": 2, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:45:38.508595", "tipo": "ESCRITA", "addr": 3, "valor": true, "ack": false}
+{"ts": "2026-05-21T21:45:40.702371", "tipo": "VERIFICACAO", "addr": 3, "esperado": true, "lido": null}
+{"ts": "2026-05-21T21:45:52.929990", "tipo": "SESSAO_ENCERRADA", "ip": "172.20.10.238"}
+{"ts": "2026-05-21T22:06:18.055904", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 502}
+{"ts": "2026-05-21T22:06:20.123992", "tipo": "CONEXAO_FALHA", "tentativa": 1, "erro": "sem detalhe", "rtt_ms": 2054.24}
+{"ts": "2026-05-21T22:06:24.165187", "tipo": "CONEXAO_FALHA", "tentativa": 2, "erro": "sem detalhe", "rtt_ms": 2010.54}
+{"ts": "2026-05-21T22:06:28.554537", "tipo": "CONEXAO_FALHA", "tentativa": 3, "erro": "sem detalhe", "rtt_ms": 2016.57}
+{"ts": "2026-05-21T22:06:31.603999", "tipo": "FALHA_CRITICA", "motivo": "sem_conexao_apos_tentativas"}
+{"ts": "2026-05-21T22:07:57.358428", "tipo": "SESSAO_INICIADA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T22:07:58.053982", "tipo": "CONEXAO_OK", "ip": "172.20.10.238", "port": 1217, "rtt_ms": 61.72}
+{"ts": "2026-05-21T22:08:55.863278", "tipo": "DIAGNOSTICO_SEM_RESPOSTA", "ip": "172.20.10.238", "port": 1217}
+{"ts": "2026-05-21T22:09:58.485011", "tipo": "SESSAO_ENCERRADA", "ip": "172.20.10.238"}

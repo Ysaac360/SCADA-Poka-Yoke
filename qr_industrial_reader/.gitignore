@@ -1,0 +1,34 @@
+# Configurações do Ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pastas de Ambientes Virtuais
+venv/
+env/
+ENV/
+
+# Ficheiros de Banco de Dados Locais
+*.sqlite3
+*.db
+
+# Logs e Saídas
+*.log
+logs/
+
+# Segredos e Configurações Locais
+.env
+.env.local
+
+# Modelos Pesados de Inteligência Artificial
+*.pt
+*.onnx
+weights/
+models/
+
+# Arquivos de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
